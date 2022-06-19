@@ -3,6 +3,8 @@ import os
 
 
 def prime(s):
+# Function to check if a number is a prime number
+
     s = int(sys.argv[1])
     if (s == 1):
         print(s, "is not really a prime number since prime numbers are greater than 1")
